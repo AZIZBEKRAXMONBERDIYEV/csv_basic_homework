@@ -10,7 +10,7 @@ def find_number_of_rows(data):
     s=a[1:]
         
     
-    return len(s)-1
+    return len(s)
 data=open("data.csv").read()
 print(find_number_of_rows(data))
     
